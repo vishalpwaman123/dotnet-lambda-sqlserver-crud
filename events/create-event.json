@@ -1,0 +1,16 @@
+{
+  "version": "2.0",
+  "routeKey": "POST /products",
+  "rawPath": "/products",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "requestContext": {
+    "http": {
+      "method": "POST",
+      "path": "/products"
+    }
+  },
+  "body": "{\"name\": \"Coffee Mug\", \"price\": 9.99}",
+  "isBase64Encoded": false
+}

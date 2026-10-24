@@ -1,0 +1,15 @@
+{
+  "version": "2.0",
+  "routeKey": "DELETE /products/{id}",
+  "rawPath": "/products/REPLACE-WITH-PRODUCT-ID",
+  "pathParameters": {
+    "id": "REPLACE-WITH-PRODUCT-ID"
+  },
+  "requestContext": {
+    "http": {
+      "method": "DELETE",
+      "path": "/products/REPLACE-WITH-PRODUCT-ID"
+    }
+  },
+  "isBase64Encoded": false
+}

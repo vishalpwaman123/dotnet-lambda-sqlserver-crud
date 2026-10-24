@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "routeKey": "PUT /products/{id}",
+  "rawPath": "/products/REPLACE-WITH-PRODUCT-ID",
+  "pathParameters": {
+    "id": "REPLACE-WITH-PRODUCT-ID"
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "requestContext": {
+    "http": {
+      "method": "PUT",
+      "path": "/products/REPLACE-WITH-PRODUCT-ID"
+    }
+  },
+  "body": "{\"name\": \"Big Coffee Mug\", \"price\": 12.50}",
+  "isBase64Encoded": false
+}
