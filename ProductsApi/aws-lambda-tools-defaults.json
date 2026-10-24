@@ -1,0 +1,7 @@
+{
+  "profile": "default",
+  "region": "us-east-1",
+  "configuration": "Release",
+  "template": "serverless.template",
+  "stack-name": "products-api"
+}
