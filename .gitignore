@@ -1,0 +1,43 @@
+# ---------------------------------------------
+# Build output (recreated by "dotnet build")
+# ---------------------------------------------
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.zip
+
+# ---------------------------------------------
+# Visual Studio / VS Code / Rider settings
+# ---------------------------------------------
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# ---------------------------------------------
+# Secrets — never commit these
+# ---------------------------------------------
+# Holds the local SQL Server connection string, including the password.
+**/Properties/launchSettings.json
+.env
+*.pfx
+
+# ---------------------------------------------
+# Test / deploy leftovers
+# ---------------------------------------------
+# Written by "aws lambda invoke ... response.json"
+response.json
+# Lambda Test Tool saved requests
+.lambda-test-tool/
+*.log
+TestResults/
+
+# ---------------------------------------------
+# Operating system files
+# ---------------------------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
